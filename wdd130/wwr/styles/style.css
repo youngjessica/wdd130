@@ -194,12 +194,18 @@ nav{
 /*The Rivers*/
 .rivers-grid{
     display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(8, 1fr);
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 1fr);
 }
 #rivers-hero-img{
-    width:100%;
+    width: 80%;
     margin-bottom: 80px;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 #rivers-hero-msg{
     padding: 20px;
@@ -209,62 +215,66 @@ nav{
 }
 .salmon-river p{
     color: #39321A;
-    font-size: 1.5em;
+    font-size: .75em;
     line-height: 1.5em;
     padding-bottom: 15px;
     background-color: #FBCBB2;
     padding: 35px;
     margin-bottom: 160px;
     box-shadow: 5px 5px 10px #39321A;
-    width: 800px;
-    grid-column: 1/3;
+    width: 600px;
+    grid-column: 1/2;
+    grid-row: 3/4;
 } 
 .gray-river p{
     color: #39321A;
-    font-size: 1.5em;
+    font-size: .75em;
     line-height: 1.5em;
     padding-bottom: 15px;
     background-color: #FBCBB2;
     padding: 35px;
     margin-bottom: 160px;
     box-shadow: 5px 5px 10px #39321A;
-    width: 800px;
+    width: 600px;
+    grid-column: 2/3;
+    grid-row: 2/3;
 } 
 .grand-river  p{
     color: #39321A;
-    font-size: 1.5em;
+    font-size: .75em;
     line-height: 1.5em;
     padding-bottom: 15px;
     background-color: #FBCBB2;
     padding: 35px;
     margin-bottom: 160px;
     box-shadow: 5px 5px 10px #39321A;
-    width: 800px;
+    width: 600px;
+    grid-column: 1/2;
+    grid-row: 3/4;
 }
 .salmon-river h2, .gray-river h2, .grand-river  h2{
     color: #39321A;
-    font-size: 2.5em;
+    font-size: 2em;
     line-height: 1em;
     padding-bottom: 15px;
 }
 .salmon-img{
     margin-bottom: 150px;
-    width: 1000px;
+    width: 600px;
     padding-left: 75px;
 }
 .gray-img{
     margin-bottom: 150px;
-    width: 1000px;
+    width: 600px;
     grid-column: 2/3;
     grid-row: 2/3;
-    box-shadow: 5px 5px 10px #39321A;
     padding-right: 100px;
 }
 .grand-img{
     margin-bottom: 150px;
-    width: 1000px;
+    width: 600px;
     grid-row: 3/4;
-    box-shadow: 5px 5px 10px #39321A;
+    padding-left: 75px;
 }
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
