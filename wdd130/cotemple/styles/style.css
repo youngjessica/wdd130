@@ -203,10 +203,7 @@ footer .social img {
     margin-bottom: 75px;
     width: 800px;
 }
-.text {
-    font-family: 'Oswald', sans-serif;
-    font-size: 5em;
-}
+
 /*Open House*/
 * {box-sizing:border-box}
 
@@ -252,7 +249,7 @@ footer .social img {
 /* Caption text */
 .text {
   color: #f2f2f2;
-  font-size: 15px;
+  font-size: 25px;
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
