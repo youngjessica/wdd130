@@ -145,16 +145,16 @@ footer .social img {
     grid-row: 13/15;
 }
 .temples-p {
-    font-size: 2em;
+    font-size: 1em;
     padding: 20px;
     text-align: left;
     border: 5px solid #5C9EAD;
-    grid-column: 4/12;
+    grid-column: 5/12;
     grid-row: 2/5;
     background-color: white;
 }
 .cotemp-p {
-    font-size: 2em;
+    font-size: 1em;
     padding: 20px;
     text-align: left;
     border: 5px solid #5C9EAD;
@@ -164,12 +164,12 @@ footer .social img {
 }
 
 .contact-us {
-    font-size: 2em;
+    font-size: 1em;
     padding: 20px;
     text-align: left;
     border: 5px solid #5C9EAD;
-    grid-column: 4/12;
-    grid-row: 14/16;
+    grid-column: 5/12;
+    grid-row: 14/15;
     background-color: white;
 }
 
