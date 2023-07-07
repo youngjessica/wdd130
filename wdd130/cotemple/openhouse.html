@@ -31,10 +31,52 @@
                     For more information regarding The Church of Jesus Christ of Latter-Day Saints, please visit churchofjesuschrist.org.
                 </p>
             </section>
-            <section class="openhouse-slider">
-                <img class="open-slider" src="images/dewine.png" alt="images of the open house">
-                <!--Not too sure how to code for an image slider yet-->
-            </section>
+            <!-- Slideshow container -->
+            <div class="slideshow-container">
+
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade">
+                <div class="numbertext">1 / 5</div>
+                <img src="/images/dewine.png" style="width:100%">
+                <div class="text">Ohio Governer, Mike Dewine attends the Open House</div>
+                </div>
+            
+                <div class="mySlides fade">
+                <div class="numbertext">2 / 5</div>
+                <img src="/images/colum-temple 1.jpeg" style="width:100%">
+                <div class="text">Celestial Room</div>
+                </div>
+            
+                <div class="mySlides fade">
+                <div class="numbertext">3 / 5</div>
+                <img src="/images/colum_temple 3.jpeg" style="width:100%">
+                <div class="text">Sealing Room</div>
+                </div>
+
+                <div class="mySlides fade">
+                <div class="numbertext">4 / 5</div>
+                <img src="/images/colum_temple 4.jpeg" style="width:100%">
+                <div class="text">Entrance to the temple</div>
+                </div>
+
+                <div class="mySlides fade">
+                <div class="numbertext">5 / 5</div>
+                <img src="/images/colum_temple 5.jpeg" style="width:100%">
+                <div class="text">Baptistry</div>
+                </div>
+            
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+            
+            <!-- The dots/circles -->
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
         </main>
         <footer>
             <p>&copy; The Church of Jesus Christ of Latter-Day Saints</p>
@@ -54,6 +96,36 @@
         </footer> 
     </div>
 </div>
+<script>
+    let slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>
     
 </body>
 </html>
