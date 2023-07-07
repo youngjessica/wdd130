@@ -205,14 +205,14 @@ footer .social img {
 }
 .text {
     font-family: 'Oswald', sans-serif;
-    font-size: 2em;
+    font-size: 5em;
 }
 /*Open House*/
 * {box-sizing:border-box}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 800px;
+  max-width: 1200px;
   position: relative;
   margin: auto;
 }
