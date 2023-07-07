@@ -173,6 +173,40 @@ footer .social img {
     background-color: white;
 }
 
+/*Renovations*/
+.home-grid{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+.reno {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);  
+}
+.reno h1{
+    text-align: center;
+    font-size: 4.5em;
+    font-family: 'Dancing Script', cursive;
+    border: 5px solid #DEBD68;
+    width: 500px;
+    padding: 40px;
+    grid-column: 4/8;
+    grid-row: 1/2;
+}
+.reno-p{
+    font-size: 1em;
+    padding: 20px;
+    text-align: center;
+    border: 5px solid #5C9EAD;
+    grid-column: 3/9;
+    grid-row: 2/6;
+    background-color: white;
+    margin-bottom: 75px;
+    width: 800px;
+}
+.text {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2em;
+}
 /*Open House*/
 * {box-sizing:border-box}
 
