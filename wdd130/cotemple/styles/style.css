@@ -21,7 +21,6 @@ footer .social img {
     margin-top: 25px;
 }
 #logo_link {
-    padding-top: 5px;
     justify-self: center;
     align-self: center;
 }
@@ -205,6 +204,33 @@ footer .social img {
 }
 
 /*Open House*/
+
+.open-house {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);  
+}
+.open-house h1{
+    text-align: center;
+    font-size: 4.5em;
+    font-family: 'Dancing Script', cursive;
+    border: 5px solid #DEBD68;
+    width: 500px;
+    padding: 40px;
+    grid-column: 4/8;
+    grid-row: 1/2;
+}
+.open-p {
+    font-size: 1em;
+    padding: 20px;
+    text-align: center;
+    border: 5px solid #5C9EAD;
+    grid-column: 3/9;
+    grid-row: 2/6;
+    background-color: white;
+    margin-bottom: 75px;
+    width: 800px;
+}
+
 * {box-sizing:border-box}
 
 /* Slideshow container */
