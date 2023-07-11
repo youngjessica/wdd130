@@ -177,7 +177,8 @@ footer .social img {
 }
 .reno {
     display: grid;
-    grid-template-columns: repeat(10, 1fr);  
+    grid-template-columns: 1fr;
+    justify-items: center;
 }
 .reno h1{
     text-align: center;
@@ -186,16 +187,12 @@ footer .social img {
     border: 5px solid #DEBD68;
     width: 400px;
     padding: 18px;
-    grid-column: 4/8;
-    grid-row: 1/2;
 }
 .reno-p{
     font-size: 1em;
     padding: 20px;
     text-align: left;
     border: 5px solid #5C9EAD;
-    grid-column: 3/9;
-    grid-row: 2/6;
     background-color: white;
     margin-bottom: 75px;
     width: 800px;
@@ -205,7 +202,8 @@ footer .social img {
 
 .open-house {
     display: grid;
-    grid-template-columns: repeat(10, 1fr);  
+    grid-template-columns: 1fr;
+    justify-items: center;
 }
 .open-house h1{
     text-align: center;
@@ -214,16 +212,12 @@ footer .social img {
     border: 5px solid #DEBD68;
     width: 400px;
     padding: 18px;
-    grid-column: 4/8;
-    grid-row: 1/2;
 }
 .open-p {
     font-size: 1em;
     padding: 20px;
     text-align: left;
     border: 5px solid #5C9EAD;
-    grid-column: 3/9;
-    grid-row: 2/6;
     background-color: white;
     margin-bottom: 75px;
     width: 800px;
